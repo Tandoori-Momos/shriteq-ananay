@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round";
+}
+
+body {
+  overflow-x: hidden;
+  background: #efefef;
+}
+
+.wrapper {
+  margin-top: 175px;
+}
+
+.wrapper nav {
+  margin-top: 50px;
+  margin-left: -30px;
+}
+
+.wrapper nav ul {
+  list-style: none;
+}
+
+.wrapper nav ul li {
+  border-left: 4px solid transparent;
+  padding-left: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.wrapper nav ul li:hover {
+  border-left: 4px solid #67adff;
+}
+
+.wrapper nav ul li a {
+  color: #39c;
+  font-size: 14pt;
+  text-decoration: none;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  padding: 100px;
+  padding-top: 200px;
+  height: 100%;
+  padding-left: 100px;
+  background: #fff;
+}
+
+.sidebar .voyage_button {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #67adff;
+  color: #fff;
+  text-align: center;
+}
+
+.profile_pic {
+  border-radius: 100%;
+  width: 120px;
+}
+
+.name {
+  font-size: 14pt;
+}
+
+.tile {
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.04);
+  padding: 30px;
+  line-height: 2em;
+  text-align: justify;
+}
+
+.main {
+  width: 50%;
+  position: fixed;
+  top: 200px;
+  left: 35%;
+}

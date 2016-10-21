@@ -1,0 +1,75 @@
+/**
+* @Author: ananayarora
+* @Date:   2016-10-21T00:49:40+05:30
+* @Last modified by:   ananayarora
+* @Last modified time: 2016-10-21T00:51:05+05:30
+*/
+
+
+
+.wrapper {
+  margin-top: 130px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.signup {
+  font-family: "Varela Round";
+}
+
+.signup .login_with_facebook {
+  background: #3b5998;
+  color: #fff;
+  padding: 20px;
+  width: 200px;
+}
+
+.signup .line {
+  width: 50%;
+  background: #dfdfdf;
+  height: 1px;
+}
+
+.signup .regular input {
+  padding: 10px;
+  width: 300px;
+  font-size: 14pt;
+  margin-top: 20px;
+  font-family: "Varela Round";
+}
+
+.signup .regular select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px;
+  width: 325px;
+  font-size: 14pt;
+  margin-top: 7.5px;
+  font-family: "Varela Round";
+  background: #fff;
+  border: none;
+  border: 1px solid #cdcdcd;
+  border-radius: 0px;
+}
+
+.signup .regular .submit {
+  color: #fff;
+  padding: 15px;
+  background: #67adff;
+  width: 100px;
+  font-size: 13pt;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: "Varela Round";
+  font-weight: 100;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.signup .regular .submit:hover {
+  background: #1479fb;
+}

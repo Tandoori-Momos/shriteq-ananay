@@ -1,0 +1,93 @@
+// @Author: ananayarora
+// @Date:   2016-10-21T01:45:03+05:30
+// @Last modified by:   ananayarora
+// @Last modified time: 2016-10-21T02:21:55+05:30
+
+
+
+$blue: #67adff;
+$dark-blue: #1479fb;
+$facebook-blue: #3b5998;
+
+* {
+    margin:0;
+    padding:0;
+    font-family: "Varela Round";
+}
+
+body {
+    overflow-x:hidden;
+    background:#efefef;
+}
+
+.wrapper {
+    margin-top:175px;
+    nav {
+        margin-top:50px;
+        margin-left:-30px;
+        ul {
+            list-style: none;
+            li {
+                border-left:4px solid rgba(0,0,0,0);
+                padding-left:10px;
+                cursor: pointer;
+                margin-top:20px;
+                -webkit-transition:all 0.5s;
+                -moz-transition:all 0.5s;
+                transition:all 0.5s;
+                &:hover {
+                    border-left:4px solid $blue;
+                }
+                & a {
+                    color:#39c;
+                    font-size: 14pt;
+                    text-decoration:none;
+                }
+            }
+        }
+    }
+}
+
+.sidebar {
+    position: fixed;
+    top:0px;
+    padding:100px;
+    padding-top:200px;
+    height:100%;
+    padding-left:100px;
+    background:#fff;
+
+    & .voyage_button {
+        padding:10px;
+        margin-top:20px;
+        border-radius:5px;
+        background:$blue;
+        color:#fff;
+        text-align:center;
+    }
+
+}
+
+.profile_pic {
+    border-radius:100%;
+    width:120px;
+}
+
+.name {
+    font-size:14pt;
+}
+
+.tile {
+    background:#fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.04);
+    padding:30px;
+    line-height:2em;
+    text-align: justify;
+}
+
+.main {
+    width:50%;
+    position:fixed;
+    top:200px;
+    left:35%;
+}

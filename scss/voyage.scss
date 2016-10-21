@@ -1,0 +1,64 @@
+// @Author: ananayarora
+// @Date:   2016-10-21T02:26:28+05:30
+// @Last modified by:   ananayarora
+// @Last modified time: 2016-10-21T07:02:36+05:30
+
+
+$blue: #67adff;
+$dark-blue: #1479fb;
+$facebook-blue: #3b5998;
+
+
+.voyage-page {
+
+    .where {
+        margin-left:300px;
+        width:50%;
+
+        .tile {
+            background:#fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.04);
+            padding:30px;
+            line-height:2em;
+            text-align: center;
+        }
+
+    }
+
+    .voyage_button {
+        padding:10px;
+        margin-top:20px;
+        border-radius:5px;
+        background:$blue;
+        color:#fff;
+        width:100px;
+        text-align:center;
+    }
+
+    .tile2 {
+        display:none;
+    }
+    .tile3 {
+        display:none;
+    }
+    .line {
+        border:2px solid #efefef;
+        width:50%;
+    }
+
+    .spot {
+        width:300px;
+
+        img {
+            width:250px;
+        }
+    }
+
+    input {
+        padding:10px;
+        width: 300px;
+        font-size: 14pt;
+        margin-top:20px;
+    }
+
+}
