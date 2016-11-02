@@ -14,12 +14,11 @@
     $f = new Functions();
     $f->session();
 
-    if (!isset($_SESSION['uid'])) {
-        header('HTTP/1.1 403 Forbidden');
-        die();
-    }
+    error_reporting(0);
 
+  
     $user = $f->getUser($_SESSION['uid']);
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -27,6 +26,8 @@
         <meta charset="utf-8">
         <title>Feed</title>
         <link rel="stylesheet" href="css/dashboard.css" media="screen" title="no title">
+        <link rel="stylesheet" type="text/css" href="css/feed.css">
+        <link rel="stylesheet" type="text/css" href="css/css.css">
     </head>
     <body>
         <?php
@@ -35,14 +36,16 @@
         <div class="wrapper">
             <div class="sidebar">
                 <?php if ($user['fbid'] != "") { ?>
-                    <img class="profile_pic" src="https://graph.facebook.com/<?php echo $user['fbid']; ?>/picture?type=large" alt="" />
+                    <img class="profile_pic" src="muk.png" alt="" />
 
                 <?php } else { ?>
-                    <img src="profile_pic" src="https://pixabay.com/static/uploads/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="" />
+                    <img class ="profile_pic" src="muk.png" alt="" />
                 <?php } ?>
                 <br />
                 <br />
-                <p class="name"><?php echo $user['first_name'] . " " . $user['last_name'];?></p>
+                <p class="name">Vishrut Malik</p>
+                <br>
+                <br>
                 <div class="voyage_button" onclick="window.location.href='voyage.php'">VOYAGE!</div>
                 <nav>
                     <ul>

@@ -39,7 +39,7 @@
                     echo '<a href="signin.php"><li>Sign In</li></a>';
                 }
             ?>
-            <a href="#"><li>About Voyage</li></a>
+            <a href="signup.php"><li>Sign Up</li></a>
         </ul>
     </nav>
 </header>

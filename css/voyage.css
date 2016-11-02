@@ -32,8 +32,19 @@
 .voyage-page .line {
   border: 2px solid #efefef;
   width: 50%;
+  margin-top: 15px;
 }
+.flights {
+  position: relative; 
+  width: 80%;
+  height: 220px;
+  background: #ebebeb;
+  left: 50%;
+  margin-top: 20px;
+  -webkit-transform: translateX(-50%);
+  
 
+}
 .voyage-page .spot {
   width: 300px;
 }
@@ -47,4 +58,17 @@
   width: 300px;
   font-size: 14pt;
   margin-top: 20px;
+}
+.flight-info {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 33.3%;
+  border-bottom: 1px solid #ccc;
+}
+.flight-info span {
+  position: relative;
+  font-weight: 800;
+  font-size: 16px;
+  top: 20px;
 }

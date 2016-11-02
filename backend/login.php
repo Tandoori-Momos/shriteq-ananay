@@ -20,8 +20,6 @@
     if ($o->count) {
         $_SESSION['username'] = $_POST['username'];
         echo "success";
-    } else {
-        echo "Invalid Username / Password Combination";
-    }
+    } 
 
 ?>

@@ -9,7 +9,7 @@
 class Conf {
     var $host = "localhost";
     var $username = "root";
-    var $password = "root";
+    var $password = "";
     var $db = "voyage";
     var $base = "http://localhost/voyage";
     var $facebook_redirect_url = "http://localhost/voyage/backend/facebook_process.php";
